@@ -4,10 +4,10 @@ document.getElementById("demo").innerHTML = languages;
 
 function myFunc() {
     languages.push("Scratch");
-    document.getElementById("demo").innerHTML = languages;
+    document.getElementById("demo").innerHTML = languages.join(" :) ");
 }
 
 function getFunc() {
     languages.push("Ruby");
-    document.getElementById("demo").innerHTML= languages;
+    document.getElementById("demo").innerHTML= languages.join(" :( ");
 }
